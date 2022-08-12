@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+<title>{% block title %}Error{% endblock %}</title>
+
+{% block body %}
+<body>
+<div class="container jumbotron mt-4">
+  <div class="alert alert-warning" role="alert">OOPS! You haven't selected any task!</div>
+  <hr class="my-4">
+  <a href="/" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Go back</a>
+</div>
+</body>
+{% endblock %}
